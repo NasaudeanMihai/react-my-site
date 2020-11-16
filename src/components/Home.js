@@ -1,12 +1,12 @@
 import React from 'react';
-import '../App.css';
+import '../cssStyle/home.css';
 
 
 function Home() {
 
   return (
 
-    <div className="background-back">
+    <div className="bg-back">
        <div className="welcome">
            Welcome
        </div>

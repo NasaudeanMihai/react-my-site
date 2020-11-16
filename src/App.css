@@ -1,175 +1,22 @@
 body {
   margin: 0;
   padding: 0;
-  background:white;
   font-family: 'Goldman', cursive;
 }
-.App {
-  text-align: center;
-}
-.background-back {
-  background-image: url(./image/background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-}
-.welcome {
-  position: absolute;
-  color: white;
-  text-align: center;
-  background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    padding-top: 100px;
-    font-size: 200px;
-  
-}
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh;
-  background:white;
-  color:black;
 }
-
-.nav-links {
-  width: 50%;
+.links {
   display: flex;
   justify-content: space-around;
-  text-decoration: none;
-  align-items: center;
   list-style: none;
+  width: 50%;
 }
 
-
-h1 {
-  text-align: center;
-}
-h2 {
-  margin-top: 15%;
-  text-align: center;
-
-}
-h3 {
-  text-align: center;
-}
-h1, h2, h3 {
-  
-  margin-bottom: .5em;
-}
-
- /* contact */
-.contact-links {
-  position: absolute;
-  margin-top: 250px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  list-style-type: none;
-}
-
-.icon {
-  width: 140px;
-  height: 140px;
-  position: relative;
-  display: inline-block;
-}
-.icon a {
-  color: #FFFFFF;
+.links-btn:link, .links-btn:visited {
   text-decoration: none;
-}
-.icon i {
   color: black;
-  font-size: 80px;
-  display: block;
-  text-align: center;
-}
-.icon span {
-  position: relative;
-  width: 120px;
-  background: black;
-  color: white;
-  padding: 5px 0;
-  text-align: center;
-  border-radius: 8px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 10px;
-  opacity: 0;
-  transition: 0.6s opacity;
-}
-
-.icon span:before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  position: absolute;
-  top: -6px;
-  background: black;
-  z-index: -1;
-  left: 50%;
-  transform: translateX(-50%) rotate(45deg);
-}
-
-a:hover > span{
-  opacity: 1;
-  text-decoration: none;
-}
-
-/* logo size*/
-
-.logo {
-  width: 90px;
-  height: 73px;
-}
-.project-icon {
-  margin-bottom: 20px;
-  padding: 5px;
-  display: inline;
-}
-
-.project-icon span {
-  padding: 10px;
-  text-align: center;
-  font-size: 20px;
-  
-}
-.img-project {
-  float: none;
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-right: auto;
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-top-left-radius: 0.8rem;
-  border-top-right-radius: 0.8rem;
-  border-bottom-left-radius: 0.8rem;
-  border-bottom-right-radius: 0.8rem;
-}
-
-.project-icon a {
-  color:black;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.img-about {
-  width: 200;
-  height: 313;
-  margin-top: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.about-description {
-  margin-top: 30px;
-  text-align: center;
-  list-style-type: none;
 }

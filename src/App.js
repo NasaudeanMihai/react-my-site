@@ -14,19 +14,18 @@ function App() {
     
     <Router>
     <nav>
-      
       <Link to="/">
       <img className="logo" src={logo} alt="Here is the Logo" />
       </Link>
-      <ul className="nav-links">
-        <Link to="/about">
-          <li className="nav-btn">About</li>
+      <ul className="links">
+        <Link className="links-btn" to="/about">
+          <li className="links-btn">About</li>
         </Link>
-        <Link to="/project">
-          <li className="nav-btn">Project</li>
+        <Link className="links-btn" to="/project">
+          <li className="links-btn">Project</li>
         </Link>
-        <Link to="/contact">
-          <li className="nav-btn">Contact</li>
+        <Link className="links-btn"to="/contact">
+          <li className="links-btn">Contact</li>
         </Link>
       </ul>
     </nav>
